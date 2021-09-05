@@ -1,5 +1,5 @@
 ---
-title: "Improved Inference for Interactive Fixed Effects Model with Cross Sectional Dependence"
+title: "Improved Inference for Interactive Fixed Effects Model with Cross Sectional Dependence (Job Market Paper)"
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here 
@@ -29,10 +29,10 @@ publishDate: "2021-09-01T00:00:00Z"
 # publication: In *Wowchemy Conference*
 # publication_short: In *ICW*
 
-abstract: In this paper, we propose an improved inference procedure for the interactive fixed effects model in the presence of cross-sectional dependence and heteroskedasticity. Our procedure involves two parts, correcting the asymptotic bias and estimating the covariance matrix by the estimators we developed. We establish the consistency of our estimators. By employing our method, we can significantly improve the empirical coverage rates for the estimator proposed by Bai (2009). To implement our approach, we develop a data-driven distance that does not rely on prior information, and a bandwidth selection procedure based on a cluster wild bootstrap. Monte Carlo simulations show our procedure work well with finite samples. As empirical illustrations, we apply the proposed method to estimate the effects of divorce law reforms on the U.S. divorce rate, and the effects of clean water and sewerage interventions on the U.S. child mortality.
+abstract: In this paper, we propose an improved inference procedure for the interactive fixed effects model in the presence of cross-sectional dependence and heteroskedasticity. Our procedure involves two parts, correcting the asymptotic bias and estimating the covariance matrix by the estimators we developed. We establish the consistency of our estimators. By employing our method, we can significantly improve the empirical coverage rates for the estimator proposed by Bai (2009). To implement our approach, we develop a data-driven distance that does not rely on prior information, and a bandwidth selection procedure based on a cluster wild bootstrap. Monte Carlo simulations show our procedure work well with finite samples. As empirical illustrations, we apply the proposed method to estimate the effects of divorce law reforms on the U.S. divorce rate, and the effects of clean water and sewerage interventions on the U.S. child mortality. 
 
 # Summary. An optional shortened abstract.
-summary: (Job Market Paper)
+# summary: 
 
 tags: 
 url_pdf: ''
