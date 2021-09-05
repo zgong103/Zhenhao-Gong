@@ -3,13 +3,15 @@
 # Documentation: https://wowchemy.com/docs/page-builder/
 widget: pages
 
+active: false  # Activate this widget? true/false
+
 # This file represents a page section.
 headless: true
 
 # Order that this section appears on the page.
-weight: 60
+weight: 90
 
-title: Recent Posts
+title: Research
 subtitle:
 
 content:

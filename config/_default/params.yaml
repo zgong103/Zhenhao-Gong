@@ -5,7 +5,7 @@
 
 # Appearance
 
-theme: minimal
+theme: Rose
 day_night: true
 font: ''
 font_size: L
@@ -89,20 +89,20 @@ edit_page:
     post: false
     book: false
 show_related:
-  book: true
+  book: false
   page: false
-  post: true
-  project: true
-  publication: true
-  event: true
-reading_time: true
+  post: false
+  project: false
+  publication: false
+  event: false
+reading_time: false
 section_pager: false
-docs_section_pager: true
-sharing: true
+docs_section_pager: false
+sharing: false
 copyright_license:
   enable: false
   allow_derivatives: false
-  share_alike: true
+  share_alike: false
   allow_commercial: false
   notice: 'This work is licensed under {license}'
 abstract_length: 135
@@ -123,11 +123,11 @@ breadcrumb:
 comments:
   provider: ''
   commentable:
-    post: true
-    book: true
-    project: true
-    publication: true
-    event: true
+    post: false
+    book: false
+    project: false
+    publication: false
+    event: false
   disqus:
     shortname: ''
     show_count: true
