@@ -1,7 +1,7 @@
 ---
 # An instance of the Pages widget.
 # Documentation: https://wowchemy.com/docs/page-builder/
-widget: pages
+widget: blank
 
 active: false  # Activate this widget? true/false
 
@@ -11,7 +11,7 @@ headless: true
 # Order that this section appears on the page.
 weight: 90
 
-title: Research
+title: Posts
 subtitle:
 
 content:
