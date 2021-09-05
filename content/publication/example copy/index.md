@@ -1,12 +1,11 @@
 ---
-title: "Improved Inference for Interactive Fixed Effects Model with Cross Sectional Dependence (Job Market Paper)"
+title: "Non-robustness issue for estimating the number of factors in high dimensional data"
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here 
 # and it will be replaced with their full name and linked to their profile.
 authors:
 - admin
-- Min Seong Kim
 
 # Author notes (optional)
 author_notes:
@@ -29,10 +28,10 @@ publishDate: "2021-09-01T00:00:00Z"
 # publication: In *Wowchemy Conference*
 # publication_short: In *ICW*
 
-abstract: In this paper, we propose an improved inference procedure for the interactive fixed effects model in the presence of cross-sectional dependence and heteroskedasticity. Our procedure involves two parts, correcting the asymptotic bias and estimating the covariance matrix by the estimators we developed. We establish the consistency of our estimators. By employing our method, we can significantly improve the empirical coverage rates for the estimator proposed by Bai (2009). To implement our approach, we develop a data-driven distance that does not rely on prior information, and a bandwidth selection procedure based on a cluster wild bootstrap. Monte Carlo simulations show our procedure work well with finite samples. As empirical illustrations, we apply the proposed method to estimate the effects of divorce law reforms on the U.S. divorce rate, and the effects of clean water and sewerage interventions on the U.S. child mortality.
+abstract: The idea of factor analysis is that it can use a few latent factors to capture the variations of a large number of economic variables in a high dimensional data set. A critical question in factor analysis is to estimate the number of factors. Most methods for choosing the number of factors are based on the results from random matrix theory (RMT), which studies the distribution of sample eigenvalues and requires i.i.d and gaussian assumption on the error terms in the factor model.  These restrictions may not appropriate when we want to apply those methods in practice. This paper aims to show that those methods are not robust by simulation when the error terms in the factor model are serially and cross-sectionally correlated or have non-gaussian distributions. Our simulation results provide useful recommendations to applied users for how to choose the estimation method in dealing with different types of data.
 
 # Summary. An optional shortened abstract.
-summary: We propose an improved inference procedure for the interactive fixed effects model in the presence of cross-sectional dependence and heteroskedasticity.
+# summary: Essay 1
 
 tags: 
 url_pdf: ''
