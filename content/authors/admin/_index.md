@@ -14,12 +14,12 @@ organizations:
   url: https://www.uconn.edu/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include econometric theory, applied econometrics, machine learning, and forecasting.
+bio: My research interests include econometric theory, financial econometrics, machine learning, and forecasting.
 
 # Interests to show in About widget
 interests:
 - Econometric Theory
-- Applied Econometrics
+- Financial Econometrics
 - Machine Learning
 - Forecasting
 
@@ -60,9 +60,9 @@ education:
 # Link to a PDF of your resume/CV.
 # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.toml`, 
 # and uncomment the lines below.
-# - icon: cv
-#   icon_pack: ai
-#   link: uploads/resume.pdf
+#- icon: cv
+#icon_pack: ai
+#link: uploads/resume.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ""
@@ -70,6 +70,7 @@ email: ""
 # Highlight the author in author lists? (true/false)
 highlight_name: false
 ---
-My name is Zhenhao Gong and I am a Ph.D. Candidate in economics at University of Connecticut. My research focus on developing and applying new tools for economists with the use of big data, machine learning, and forecasting. During my Ph.D. study at UConn, I have taught undergraduate courses in econometrics and time series forecasting. My teaching interests are in quantitative methods for economics and business, as well as machine learning and open source programming (i.e. R/Python).
+My research focus on factor analysis in high-dimensional data and panel data with interactive fixed effects. My research interests includes developing and applying new tools for economists with the use of big data, machine learning, and forecasting. During my Ph.D. study at UConn, I have taught undergraduate courses in econometrics and time series forecasting. My teaching interests are in quantitative methods for economics and business, as well as machine learning and open source programming (i.e. R/Python).
+
 
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}.

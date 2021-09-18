@@ -1,11 +1,12 @@
 ---
-title: "Non-robustness issue for estimating the number of factors in high dimensional data"
+title: "Improved Inference for Interactive Fixed Effects Model with Cross Sectional Dependence (Job Market Paper)"
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here 
 # and it will be replaced with their full name and linked to their profile.
 authors:
 - admin
+- Min Seong Kim
 
 # Author notes (optional)
 author_notes:
@@ -28,14 +29,18 @@ publishDate: "2021-09-01T00:00:00Z"
 # publication: In *Wowchemy Conference*
 # publication_short: In *ICW*
 
-abstract: The idea of factor analysis is that it can use a few latent factors to capture the variations of a large number of economic variables in a high dimensional data set. A critical question in factor analysis is to estimate the number of factors. Most methods for choosing the number of factors are based on the results from random matrix theory (RMT), which studies the distribution of sample eigenvalues and requires i.i.d and gaussian assumption on the error terms in the factor model.  These restrictions may not appropriate when we want to apply those methods in practice. This paper aims to show that those methods are not robust by simulation when the error terms in the factor model are serially and cross-sectionally correlated or have non-gaussian distributions. Our simulation results provide useful recommendations to applied users for how to choose the estimation method in dealing with different types of data.
+abstract: In this paper, we propose an improved inference procedure for the interactive fixed effects model in the presence of cross-sectional dependence and heteroskedasticity.  It is well known in the literature that the LS estimator in this model by Bai (2009) is asymptotically biased when the error term is cross-sectionally dependent, and we address this problem. Our procedure involves two parts, correcting the asymptotic bias of the LS estimator and employing the cross-sectional dependence robust covariance matrix estimator. We prove the validity of the proposed procedure in the asymptotic sense. Since our approach is based on the spatial HAC estimation, e.g., Conley (1999), Kelejian and Prucha (2007) and Kim and Sun (2011), we need a distance measure that characterizes the dependence structure. Such a distance may not be available in practice and we address this by considering a data-driven distance that does not rely on prior information. We also develop a bandwidth selection procedure based on a cluster wild bootstrap method. Monte Carlo simulations show our procedure work well in finite samples. As empirical illustrations, we apply the proposed method to make inference on the effects of divorce law reforms on the U.S. divorce rate, and the effects of clean water and sewerage interventions on the U.S. child mortality.
+
+
+
 
 # Summary. An optional shortened abstract.
-# summary: Essay 1
+# summary: 
 
 tags: 
-url_pdf: ''
-url_code: ''
+url_pdf: 'JMP_Zhenhao.pdf'
+url_code: 'IFE_SHAC.R'
+url_slides: 'Slides.pdf'
 
 # Display this page in the Featured widget?
 featured: false
@@ -45,12 +50,12 @@ featured: false
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: ''
-url_code: ''
+url_pdf: 'JMP_Zhenhao.pdf'
+url_code: 'IFE_SHAC.R'
 # url_dataset: ''
 # url_poster: ''
 # url_project: ''
-# url_slides: ''
+url_slides: 'Slides.pdf'
 # url_source: ''
 # url_video: ''
 
