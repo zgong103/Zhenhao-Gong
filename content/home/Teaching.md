@@ -46,6 +46,9 @@ design:
   # For Showcase view, flip alternate rows?
   flip_alt_rows: false
 ---
+### Teaching Statement:
++ {{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/demo_resume.pdf" "newtab" >}}Teaching Statement;{{< /staticref >}} 
+
 ### Instructor:
 * ECON 3313: Elementary Forecasting, University of Connecticut 
   + Spring 2021: {{< icon name="download" pack="fas" >}} {{< staticref "uploads/demo_resume.pdf" "newtab" >}}Syllabus;{{< /staticref >}} {{< staticref "uploads/demo_resume.pdf" "newtab" >}}Evaluation{{< /staticref >}}
@@ -57,7 +60,9 @@ design:
 ### Teacher Assistant:
 * ECON 5315: Financial Econometrics (Fall 2019)
 * ECON 6310: Econometrics I (Spring 2019)
-* ECON 2201: Intermediate Microeconomic Theory (Spring 2019)
+* ECON 2201: Intermediate Microeconomic Theory \
+(Fall 2017, Spring 2018, Spring 2019)
 * ECON 1200: Principles of Economics (Fall 2018)
-* ECON 2201: Intermediate Microeconomic Theory (Spring 2018)
-* ECON 2201: Intermediate Microeconomic Theory (Fall 2017)
+
+
+

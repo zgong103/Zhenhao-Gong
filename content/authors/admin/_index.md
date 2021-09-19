@@ -1,7 +1,6 @@
 ---
 # Display name
-title: Zhenhao Gong
-
+title: Zhenhao Gong 
 # Is this the primary user of the site?
 superuser: true
 
@@ -65,7 +64,7 @@ education:
 #link: uploads/resume.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: ""
+email: "zhenhao.gong@uconn.edu"
 
 # Highlight the author in author lists? (true/false)
 highlight_name: false

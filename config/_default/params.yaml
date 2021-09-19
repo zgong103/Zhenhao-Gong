@@ -21,7 +21,7 @@ twitter: ''
 # Contact (edit or remove options as required)
 
 email: zhenhao.gong@uconn.edu
-phone: 315-870-8326
+phone: +1 (315) 870-8326
 address:
   street: 309 Oak Hall
   city: Storrs
@@ -62,7 +62,7 @@ main_menu:
   align: l
   show_logo: true
   show_language: false
-  show_day_night: false
+  show_day_night: true
   show_search: true
   highlight_active_link: true
 
