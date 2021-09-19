@@ -1,5 +1,5 @@
 ---
-title: "Non-robustness issue for estimating the number of factors in high dimensional data (Working Paper)"
+title: "2. Improved Inference for Dynamic Interactive Fixed Effects with Cross-sectional Dependence (Working Paper)"
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here 
@@ -28,15 +28,15 @@ publishDate: "2021-09-01T00:00:00Z"
 # publication: In *Wowchemy Conference*
 # publication_short: In *ICW*
 
-abstract: The idea of factor analysis is that it can use a few latent factors to capture the variations of a large number of economic variables in a high dimensional data set. A critical question in factor analysis is to estimate the number of factors. Most methods for choosing the number of factors are based on the results from random matrix theory (RMT), which studies the distribution of sample eigenvalues and requires i.i.d and gaussian assumption on the error terms in the factor model.  These restrictions may not appropriate when we want to apply those methods in practice. This paper aims to show that those methods are not robust by simulation when the error terms in the factor model are serially and cross-sectionally correlated or have non-gaussian distributions. Our simulation results provide useful recommendations to applied users for how to choose the estimation method in dealing with different types of data.
+abstract: A potential extension of the proposed method in my job market paper is to improve the inference for the dynamic panel data model with interactive fixed effects and cross-sectional dependence. By allowing the predetermined regressors (e.g. lagged-dependent variables) in the IFE model, Moon and Weidner (2015) found two sources of asymptotic biases of the least squares (LS) estimator. The first type of bias is the same bias as Bai (2009) and the other type of bias arises from the predetermined regressors. In their bias correction procedure, they proposed consistent estimators of the biases under heteroskedasticity assuming no correlations in the idiosyncratic errors. But their estimators are not valid when the idiosyncratic errors are correlated in both dimensions. The bias caused by the time-series correlated errors and the predetermined regressors can be estimated by the truncated kernel method of Newey and West (1987). The problem is how to choose the bandwidth parameters for the corresponding bias estimators. In the presence of cross-sectional correlation and heteroskedasticity, we can apply the proposed procedure to improve the inference of the LS estimator by estimating the asymptotic bias and the covariance matrix.
 
 # Summary. An optional shortened abstract.
 # summary: Essay 1
 
 tags: 
-url_pdf: 'Essay 1.pdf'
+url_pdf: ''
 url_code: ''
-url_slides: 'Slides.pdf'
+url_slides: ''
 
 # Display this page in the Featured widget?
 featured: false
@@ -46,12 +46,12 @@ featured: false
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: 'Essay 1.pdf'
+url_pdf: ''
 url_code: ''
 # url_dataset: ''
 # url_poster: ''
 # url_project: ''
-url_slides: 'Slides.pdf'
+url_slides: ''
 # url_source: ''
 # url_video: ''
 

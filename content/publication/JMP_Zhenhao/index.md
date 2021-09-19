@@ -1,5 +1,5 @@
 ---
-title: "Improved Inference for Interactive Fixed Effects Model with Cross Sectional Dependence (Job Market Paper)"
+title: "1. Improved Inference for Interactive Fixed Effects Model with Cross Sectional Dependence (Job Market Paper)"
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here 

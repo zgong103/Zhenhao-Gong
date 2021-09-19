@@ -1,5 +1,5 @@
 ---
-title: "Non-robustness issue for estimating the number of factors in high dimensional data (Working Paper)"
+title: "3. Non-robustness issue for estimating the number of factors in high dimensional data (Working Paper)"
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here 
@@ -34,7 +34,7 @@ abstract: The idea of factor analysis is that it can use a few latent factors to
 # summary: Essay 1
 
 tags: 
-url_pdf: 'Essay 1.pdf'
+url_pdf: 'Manuscript.pdf'
 url_code: ''
 url_slides: 'Slides.pdf'
 
@@ -46,7 +46,7 @@ featured: false
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: 'Essay 1.pdf'
+url_pdf: 'Manuscript.pdf'
 url_code: ''
 # url_dataset: ''
 # url_poster: ''
