@@ -74,4 +74,4 @@ My research focus on factor analysis in high-dimensional datasets and large pane
 
 
 
-{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
+{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/Zhenhao_CV.pdf" "newtab" >}}resumé{{< /staticref >}}.
