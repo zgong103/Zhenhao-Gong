@@ -59,8 +59,8 @@ design:
 
 ### Teacher Assistant:
 * ECON 5315: Financial Econometrics (Fall 2019)
-* ECON 6310: Econometrics I (Spring 2019)
-* ECON 2201: Intermediate Microeconomic Theory \
+* ECON 6310: Econometrics I (Ph.D. level) (Spring 2019)
+* ECON 2201: Intermediate Microeconomics Theory \
 (Fall 2017, Spring 2018, Spring 2019)
 * ECON 1200: Principles of Economics (Fall 2018)
 
