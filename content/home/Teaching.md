@@ -47,12 +47,12 @@ design:
   flip_alt_rows: false
 ---
 ### Teaching Statement:
-+ {{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/demo_resume.pdf" "newtab" >}}Teaching Statement;{{< /staticref >}} 
++ {{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/Teaching Statement.pdf" "newtab" >}}Teaching Statement{{< /staticref >}}. 
 
 ### Instructor:
 * ECON 3313: Elementary Forecasting, University of Connecticut 
   + Spring 2021: {{< icon name="download" pack="fas" >}} {{< staticref "uploads/Syllabus_3313_Spring2021.pdf" "newtab" >}}Syllabus;{{< /staticref >}} {{< staticref "uploads/Report_3313_Spring2021.pdf" "newtab" >}}Evaluation{{< /staticref >}}
-  + Fall 2021: {{< icon name="download" pack="fas" >}} {{< staticref "uploads/Syllabus_3313_Fall2021.pdf" "newtab" >}}Syllabus;{{< /staticref >}} 
+  + Fall 2021: {{< icon name="download" pack="fas" >}} {{< staticref "uploads/Syllabus_3313_Fall2021.pdf" "newtab" >}}Syllabus{{< /staticref >}} 
 * ECON 2311Q: Econometrics I, University of Connecticut 
   + Spring 2020: {{< icon name="download" pack="fas" >}} {{< staticref "uploads/Syllabus_2311Q_Spring2020.pdf" "newtab" >}}Syllabus;{{< /staticref >}} {{< staticref "uploads/Report_2311Q_Spring2020.pdf" "newtab" >}}Evaluation{{< /staticref >}}
   + Fall 2020: {{< icon name="download" pack="fas" >}} {{< staticref "uploads/Syllabus_2311Q_Fall2020.pdf" "newtab" >}}Syllabus;{{< /staticref >}} {{< staticref "uploads/Report_2311Q_Fall2020.pdf" "newtab" >}}Evaluation{{< /staticref >}}

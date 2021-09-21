@@ -1,5 +1,5 @@
 ---
-title: "3. Non-robustness issue for estimating the number of factors in high dimensional data (Working Paper)"
+title: "3. Non-robustness issue for estimating the number of factors in high dimensional data (Manuscript)"
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here 
