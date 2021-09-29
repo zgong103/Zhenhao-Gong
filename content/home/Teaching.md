@@ -47,14 +47,14 @@ design:
   flip_alt_rows: false
 ---
 ### Teaching Statement:
-+ {{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/Teaching Statement.pdf" "newtab" >}}Teaching Statement{{< /staticref >}}. 
++ {{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/Teaching Statement.pdf" "newtab" >}}Teaching Statement{{< /staticref >}}
 
 ### Instructor:
 * ECON 3313: Elementary Forecasting, University of Connecticut 
-  + Spring 2021: {{< icon name="download" pack="fas" >}} {{< staticref "uploads/Syllabus_3313_Spring2021.pdf" "newtab" >}}Syllabus;{{< /staticref >}} {{< staticref "uploads/Report_3313_Spring2021.pdf" "newtab" >}}Evaluation{{< /staticref >}}
-  + Fall 2021: {{< icon name="download" pack="fas" >}} {{< staticref "uploads/Syllabus_3313_Fall2021.pdf" "newtab" >}}Syllabus{{< /staticref >}} 
+  + Spring 2021: {{< icon name="download" pack="fas" >}} {{< staticref "uploads/Syllabus_3313_Spring2021.pdf" "newtab" >}}Syllabus;{{< /staticref >}} {{< staticref "uploads/Report_3313_Spring2021.pdf" "newtab" >}}Evaluation;{{< /staticref >}} {{< staticref "uploads/Lecture_note_1_ECON_3313.pdf" "newtab" >}}Sample Lecture note;{{< /staticref >}} {{< staticref "uploads/Lecture_note_10_ECON_3313_.pdf" "newtab" >}}Sample Lecture note{{< /staticref >}} 
+  + Fall 2021 (Currently teaching): {{< icon name="download" pack="fas" >}} {{< staticref "uploads/Syllabus_3313_Fall2021.pdf" "newtab" >}}Syllabus{{< /staticref >}} 
 * ECON 2311Q: Econometrics I, University of Connecticut 
-  + Spring 2020: {{< icon name="download" pack="fas" >}} {{< staticref "uploads/Syllabus_2311Q_Spring2020.pdf" "newtab" >}}Syllabus;{{< /staticref >}} {{< staticref "uploads/Report_2311Q_Spring2020.pdf" "newtab" >}}Evaluation{{< /staticref >}}
+  + Spring 2020: {{< icon name="download" pack="fas" >}} {{< staticref "uploads/Syllabus_2311Q_Spring2020.pdf" "newtab" >}}Syllabus;{{< /staticref >}} {{< staticref "uploads/Report_2311Q_Spring2020.pdf" "newtab" >}}Evaluation;{{< /staticref >}} {{< staticref "uploads/Lecture_note_2.pdf" "newtab" >}}Sample Lecture note;{{< /staticref >}} {{< staticref "uploads/Lecture_note_3.pdf" "newtab" >}}Sample Lecture note{{< /staticref >}}  
   + Fall 2020: {{< icon name="download" pack="fas" >}} {{< staticref "uploads/Syllabus_2311Q_Fall2020.pdf" "newtab" >}}Syllabus;{{< /staticref >}} {{< staticref "uploads/Report_2311Q_Fall2020.pdf" "newtab" >}}Evaluation{{< /staticref >}}
 
 ### Teacher Assistant:
