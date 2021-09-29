@@ -13,11 +13,11 @@ organizations:
   url: https://www.uconn.edu/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include econometric theory, financial econometrics, machine learning, and forecasting.
+bio: My research interests include applied econometrics, financial econometrics, machine learning, and forecasting.
 
 # Interests to show in About widget
 interests:
-- Econometric Theory
+- Applied Econometrics
 - Financial Econometrics
 - Machine Learning
 - Forecasting

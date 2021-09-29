@@ -35,6 +35,7 @@ design:
   #   3 = Card
   #   4 = Citation (publication only)
   view: 2
----
+
 ### Research Statement:
-+ {{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/Research Statement.pdf" "newtab" >}}Research Statement{{< /staticref >}}.
+# + {{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/Research Statement.pdf" "newtab" >}}Research Statement{{< /staticref >}}.
+---

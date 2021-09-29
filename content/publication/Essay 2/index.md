@@ -1,5 +1,5 @@
 ---
-title: "2. Improved Inference for Dynamic Interactive Fixed Effects Model with Cross-sectional Dependence (Working Paper)"
+title: "3. Interacive Fixed-effects Dynamic Panel Models, A Spatial Analytical Approach (Working in Progress)"
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here 
