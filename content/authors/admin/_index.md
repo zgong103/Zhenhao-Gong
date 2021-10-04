@@ -18,6 +18,7 @@ bio: My research interests include applied econometrics, financial econometrics,
 # Interests to show in About widget
 interests:
 - Applied Econometrics
+- Causal Inference
 - Financial Econometrics
 - Machine Learning
 - Forecasting
@@ -27,8 +28,10 @@ education:
   courses:
   - course: Ph.D. in Economics
     institution: University of Connecticut
-    year: Expected 2022
-
+    year: Expected July 2022
+  - course: M.S. in Economics
+    institution: University of Connecticut
+    year: Expected June 2022
   - course: M.A. in Economics
     institution: Syracuse University
     year: 2017
@@ -75,4 +78,4 @@ My research focus on factor analysis in high-dimensional datasets and large pane
 
 
 
-{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/Zhenhao_CV.pdf" "newtab" >}}resumé{{< /staticref >}}.
+{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/Zhenhao_CV.pdf" "newtab" >}}resumé.{{< /staticref >}}
