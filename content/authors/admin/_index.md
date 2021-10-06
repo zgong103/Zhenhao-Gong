@@ -17,7 +17,7 @@ bio: My research interests include applied econometrics, financial econometrics,
 
 # Interests to show in About widget
 interests:
-- Applied Econometrics
+- Econometrics
 - Causal Inference
 - Financial Econometrics
 - Machine Learning
