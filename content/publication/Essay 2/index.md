@@ -1,5 +1,5 @@
 ---
-title: "3. Interacive Fixed-effects Dynamic Panel Models, A Spatial Analytical Approach (Work in Progress)"
+title: "3. Interacive Fixed Effects Dynamic Panel Models, A Spatial Analytical Approach (Work in Progress)"
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here 
