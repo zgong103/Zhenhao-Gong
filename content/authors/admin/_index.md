@@ -73,9 +73,9 @@ email: "zhenhao.gong@uconn.edu"
 # Highlight the author in author lists? (true/false)
 highlight_name: false
 ---
-My research focus on factor analysis in high-dimensional datasets and large panel models with interactive fixed effects. My research interests include developing and applying new tools for economists with the use of big data, machine learning, and forecasting. During my Ph.D. study at UConn, I have taught undergraduate courses in econometrics and time series forecasting. My teaching interests are in quantitative methods for economics and business, as well as machine learning and open source programming (i.e. R/Python).
+My research focuses on factor analysis in high-dimensional datasets and large panel models with interactive fixed effects. My research interests include developing and applying new tools for economists using big data, machine learning, and forecasting. During my Ph.D. study at UConn, I have taught undergraduate courses in econometrics and time series forecasting. My teaching interests are quantitative methods for economics and business, machine learning, and open-source programming (i.e., R/Python).
 
 
 
 
-{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/Zhenhao_CV.pdf" "newtab" >}}resumé.{{< /staticref >}}
+{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/Zhenhao_CV.pdf" "newtab" >}}CV.{{< /staticref >}}
