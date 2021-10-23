@@ -80,7 +80,7 @@ IFE.WPC <- function(Y, X, Sigu, r){
     
     Beta_temp[2,] = solve(M2)*G
   }
-  return(list(beta = Beta_temp[2,], F_temp = F_temp))
+  return(list(beta = Beta_temp[2,], F_WPC = F_temp, Lamda_WPC = Lamda_temp))
 }
 
 # return thresholded matrix
@@ -105,7 +105,7 @@ Matrix_fun <- function(u, C){
         if (abs(R[i,j]) < th && j<i){
           Rthresh[i,j] <- 0
         } else if (j==i){
-          Rthresh[i,j] = R[i,j] 
+         Rthresh[i,j] = R[i,j] 
         } else{
           Rthresh[i,j] <- sign(R[i,j])*(abs(R[i,j])-th)
         }
@@ -135,7 +135,7 @@ Bandwidth_opt <- function(N, T, spatial, rho, S, B){
   ## Weighting matrix
   W1 = 1*(D == 1);
   W2 = 1*(D == sqrt(2))
-  
+    
   # Generate loadings
   L  <- matrix(rnorm(N*r,0,1), N, r)
   F  <- matrix(NA, T, r)
@@ -209,21 +209,18 @@ Bandwidth_opt <- function(N, T, spatial, rho, S, B){
   
   
   # Construct the operational distance matrix that reflects the degree of dependence 
-  # err_hat_df <- data.frame(rep(c(1:N),each=T),rep(c(1:T),times=N),c(err_hat))
-  # colnames(err_hat_df) <- c("id","time","err_hat")
-  # err_hat_temp <- dcast(err_hat_df, time~id, value.var="err_hat")
-  # err_cor <- cor(err_hat_temp[, -1])
-  # D_temp <- 1/abs(err_cor)
-  # for (i in 1:N) {
-  #   for (j in 1:N) {
-  #     if (D_temp[i,j] >= 100)
-  #       D_temp[i,j] <- 100
-  #   }
-  # }
-  # D_hat <- D_temp - 1
-  
-  # Use the true distance matrix
-  D_hat <- D
+  err_hat_df <- data.frame(rep(c(1:N),each=T),rep(c(1:T),times=N),c(err_hat))
+  colnames(err_hat_df) <- c("id","time","err_hat")
+  err_hat_temp <- dcast(err_hat_df, time~id, value.var="err_hat")
+  err_cor <- cor(err_hat_temp[, -1])
+  D_temp <- 1/abs(err_cor)
+  for (i in 1:N) {
+    for (j in 1:N) {
+      if (D_temp[i,j] >= 100)
+        D_temp[i,j] <- 100
+    }
+  }
+  D_hat <- D_temp - 1
   
   # Empty matrix for the results of estimators
   Reject_ratio <- matrix(NA, nrow(d_comb_hac), 1)
@@ -242,8 +239,8 @@ Bandwidth_opt <- function(N, T, spatial, rho, S, B){
     
     ## Kernel density matrix for the second HAC estimator
     D_kel_2 <- D_hat/d_2
-    # Parzen Kernel
-    Ker2 <-  (1- 6*D_kel_2^2 + 6*abs(D_kel_2)^3)*(abs(D_kel_2) <= 0.5) + 2*(1-abs(D_kel_2))^3*(abs(D_kel_2) > 0.5)*(abs(D_kel_2) <= 1);
+    # Bartlett
+    Ker2 <- (1 - abs(D_kel_2))*(abs(D_kel_2) <= 1)
     
     # Bootstrap function
     boot_fx <- function(b){
@@ -382,8 +379,10 @@ Bandwidth_opt <- function(N, T, spatial, rho, S, B){
     Ker1_star <-  (1- 6*D_kel_1^2 + 6*abs(D_kel_1)^3)*(abs(D_kel_1) <= 0.5) + 2*(1-abs(D_kel_1))^3*(abs(D_kel_1) > 0.5)*(abs(D_kel_1) <= 1);
     ## Kernel density matrix for the second HAC estimator
     D_kel_2 <- D_hat/d_2_star
-    # Parzen Kernel
-    Ker2_star <-  (1- 6*D_kel_2^2 + 6*abs(D_kel_2)^3)*(abs(D_kel_2) <= 0.5) + 2*(1-abs(D_kel_2))^3*(abs(D_kel_2) > 0.5)*(abs(D_kel_2) <= 1);
+    # # Parzen Kernel
+    # Ker2_star <-  (1- 6*D_kel_2^2 + 6*abs(D_kel_2)^3)*(abs(D_kel_2) <= 0.5) + 2*(1-abs(D_kel_2))^3*(abs(D_kel_2) > 0.5)*(abs(D_kel_2) <= 1);
+    # Bartlett
+    Ker2_star <- (1 - abs(D_kel_2))*(abs(D_kel_2) <= 1)
     
     # Estimate for matrix V in the bias term B
     V_hat <- (1/N)*X_1%*%a
@@ -421,7 +420,7 @@ Bandwidth_opt <- function(N, T, spatial, rho, S, B){
   # Cross section error by spatial HAC method
   D_1_hat <- sum((t(Z_hat*err_hat)%*%(Z_hat*err_hat))*Ker2_star)/(N*T)
   
-  # Variance for iid case
+  # Variance for normal case
   sigma_hat <- sum(err_hat^2)/(N*T) 
   var_beta <- solve(D_0_hat)*sigma_hat
   
@@ -474,7 +473,7 @@ Bandwidth_opt <- function(N, T, spatial, rho, S, B){
   # MSE
   MSE_PC  <-  (Beta_hat_1 - 1)^2
   MSE_WPC <-  (Beta_hat_WPC - 1)^2
-  MSE_HAC <-  (Beta_cor - 1)^2
+  MSE_HAC <- (Beta_cor - 1)^2
   
   # t-statistics for iid case
   t_0 <- (Beta_hat - beta_1)/se0
@@ -544,8 +543,8 @@ Bandwidth_opt <- function(N, T, spatial, rho, S, B){
 
 # Set up the reasonable bandwidth choices for the two HAC estimators in cluster
 d_1 = d_2 = 5
-# d_1 <- c(seq(3,10,1))
-# d_2 <- c(seq(3,10,1))
+# d_1 <- c(seq(4,9,1))
+# d_2 <- c(seq(4,9,1))
 d_comb_hac <- expand.grid(d_1, d_2) # combinations of the pairs of bandwidth
 d_comb_hac
 
@@ -559,12 +558,11 @@ Result_all <- foreach (s=1:S, .combine=rbind) %dopar% {
   library(MASS)
   library(xts)
   library(plm)
-  library(Metrics)
   library(foreach)
   library(reshape2)
   library(extraDistr)
   # print(paste("S=", s, "d=", d, "B=",b))
-  Bandwidth_opt(144, 50, 0.4, 0.3, s, 100)
+  Bandwidth_opt(144, 20, 0.4, 0.3, s, 1)
 }
 
 
